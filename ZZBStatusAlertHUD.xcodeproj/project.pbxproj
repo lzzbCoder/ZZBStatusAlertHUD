@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04687BFE1B71388000AC0708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04687BFD1B71388000AC0708 /* main.m */; };
+		04687C011B71388000AC0708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04687C001B71388000AC0708 /* AppDelegate.m */; };
+		04687C041B71388000AC0708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04687C031B71388000AC0708 /* ViewController.m */; };
+		04687C071B71388000AC0708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04687C051B71388000AC0708 /* Main.storyboard */; };
+		04687C091B71388000AC0708 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04687C081B71388000AC0708 /* Images.xcassets */; };
+		04687C0C1B71388000AC0708 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04687C0A1B71388000AC0708 /* LaunchScreen.xib */; };
+		04687C181B71388000AC0708 /* ZZBStatusAlertHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04687C171B71388000AC0708 /* ZZBStatusAlertHUDTests.m */; };
+		04687C241B713A7000AC0708 /* ZZBStatusAlertHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04687C231B713A7000AC0708 /* ZZBStatusAlertHUD.m */; };
+		04687C281B71410400AC0708 /* ZZBStatusHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04687C271B71410400AC0708 /* ZZBStatusHUD.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04687C121B71388000AC0708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04687BF01B71388000AC0708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04687BF71B71388000AC0708;
+			remoteInfo = ZZBStatusAlertHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04687BF81B71388000AC0708 /* ZZBStatusAlertHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZBStatusAlertHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04687BFC1B71388000AC0708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04687BFD1B71388000AC0708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04687BFF1B71388000AC0708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04687C001B71388000AC0708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04687C021B71388000AC0708 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04687C031B71388000AC0708 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04687C061B71388000AC0708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04687C081B71388000AC0708 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04687C0B1B71388000AC0708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04687C111B71388000AC0708 /* ZZBStatusAlertHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZBStatusAlertHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04687C161B71388000AC0708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04687C171B71388000AC0708 /* ZZBStatusAlertHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBStatusAlertHUDTests.m; sourceTree = "<group>"; };
+		04687C221B713A7000AC0708 /* ZZBStatusAlertHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBStatusAlertHUD.h; sourceTree = "<group>"; };
+		04687C231B713A7000AC0708 /* ZZBStatusAlertHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBStatusAlertHUD.m; sourceTree = "<group>"; };
+		04687C271B71410400AC0708 /* ZZBStatusHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZZBStatusHUD.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04687BF51B71388000AC0708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04687C0E1B71388000AC0708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04687BEF1B71388000AC0708 = {
+			isa = PBXGroup;
+			children = (
+				04687BFA1B71388000AC0708 /* ZZBStatusAlertHUD */,
+				04687C141B71388000AC0708 /* ZZBStatusAlertHUDTests */,
+				04687BF91B71388000AC0708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04687BF91B71388000AC0708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04687BF81B71388000AC0708 /* ZZBStatusAlertHUD.app */,
+				04687C111B71388000AC0708 /* ZZBStatusAlertHUDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04687BFA1B71388000AC0708 /* ZZBStatusAlertHUD */ = {
+			isa = PBXGroup;
+			children = (
+				04687C211B713A5A00AC0708 /* ZZBStatusAlertHUD */,
+				04687BFF1B71388000AC0708 /* AppDelegate.h */,
+				04687C001B71388000AC0708 /* AppDelegate.m */,
+				04687C021B71388000AC0708 /* ViewController.h */,
+				04687C031B71388000AC0708 /* ViewController.m */,
+				04687C051B71388000AC0708 /* Main.storyboard */,
+				04687C081B71388000AC0708 /* Images.xcassets */,
+				04687C0A1B71388000AC0708 /* LaunchScreen.xib */,
+				04687BFB1B71388000AC0708 /* Supporting Files */,
+			);
+			path = ZZBStatusAlertHUD;
+			sourceTree = "<group>";
+		};
+		04687BFB1B71388000AC0708 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04687BFC1B71388000AC0708 /* Info.plist */,
+				04687BFD1B71388000AC0708 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04687C141B71388000AC0708 /* ZZBStatusAlertHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				04687C171B71388000AC0708 /* ZZBStatusAlertHUDTests.m */,
+				04687C151B71388000AC0708 /* Supporting Files */,
+			);
+			path = ZZBStatusAlertHUDTests;
+			sourceTree = "<group>";
+		};
+		04687C151B71388000AC0708 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04687C161B71388000AC0708 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04687C211B713A5A00AC0708 /* ZZBStatusAlertHUD */ = {
+			isa = PBXGroup;
+			children = (
+				04687C271B71410400AC0708 /* ZZBStatusHUD.bundle */,
+				04687C221B713A7000AC0708 /* ZZBStatusAlertHUD.h */,
+				04687C231B713A7000AC0708 /* ZZBStatusAlertHUD.m */,
+			);
+			path = ZZBStatusAlertHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04687BF71B71388000AC0708 /* ZZBStatusAlertHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04687C1B1B71388000AC0708 /* Build configuration list for PBXNativeTarget "ZZBStatusAlertHUD" */;
+			buildPhases = (
+				04687BF41B71388000AC0708 /* Sources */,
+				04687BF51B71388000AC0708 /* Frameworks */,
+				04687BF61B71388000AC0708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZBStatusAlertHUD;
+			productName = ZZBStatusAlertHUD;
+			productReference = 04687BF81B71388000AC0708 /* ZZBStatusAlertHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04687C101B71388000AC0708 /* ZZBStatusAlertHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04687C1E1B71388000AC0708 /* Build configuration list for PBXNativeTarget "ZZBStatusAlertHUDTests" */;
+			buildPhases = (
+				04687C0D1B71388000AC0708 /* Sources */,
+				04687C0E1B71388000AC0708 /* Frameworks */,
+				04687C0F1B71388000AC0708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04687C131B71388000AC0708 /* PBXTargetDependency */,
+			);
+			name = ZZBStatusAlertHUDTests;
+			productName = ZZBStatusAlertHUDTests;
+			productReference = 04687C111B71388000AC0708 /* ZZBStatusAlertHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04687BF01B71388000AC0708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = zzb;
+				TargetAttributes = {
+					04687BF71B71388000AC0708 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04687C101B71388000AC0708 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04687BF71B71388000AC0708;
+					};
+				};
+			};
+			buildConfigurationList = 04687BF31B71388000AC0708 /* Build configuration list for PBXProject "ZZBStatusAlertHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04687BEF1B71388000AC0708;
+			productRefGroup = 04687BF91B71388000AC0708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04687BF71B71388000AC0708 /* ZZBStatusAlertHUD */,
+				04687C101B71388000AC0708 /* ZZBStatusAlertHUDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04687BF61B71388000AC0708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04687C071B71388000AC0708 /* Main.storyboard in Resources */,
+				04687C0C1B71388000AC0708 /* LaunchScreen.xib in Resources */,
+				04687C281B71410400AC0708 /* ZZBStatusHUD.bundle in Resources */,
+				04687C091B71388000AC0708 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04687C0F1B71388000AC0708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04687BF41B71388000AC0708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04687C041B71388000AC0708 /* ViewController.m in Sources */,
+				04687C241B713A7000AC0708 /* ZZBStatusAlertHUD.m in Sources */,
+				04687C011B71388000AC0708 /* AppDelegate.m in Sources */,
+				04687BFE1B71388000AC0708 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04687C0D1B71388000AC0708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04687C181B71388000AC0708 /* ZZBStatusAlertHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04687C131B71388000AC0708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04687BF71B71388000AC0708 /* ZZBStatusAlertHUD */;
+			targetProxy = 04687C121B71388000AC0708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04687C051B71388000AC0708 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04687C061B71388000AC0708 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04687C0A1B71388000AC0708 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04687C0B1B71388000AC0708 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04687C191B71388000AC0708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04687C1A1B71388000AC0708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04687C1C1B71388000AC0708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZBStatusAlertHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04687C1D1B71388000AC0708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZBStatusAlertHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04687C1F1B71388000AC0708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZZBStatusAlertHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZBStatusAlertHUD.app/ZZBStatusAlertHUD";
+			};
+			name = Debug;
+		};
+		04687C201B71388000AC0708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZZBStatusAlertHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZBStatusAlertHUD.app/ZZBStatusAlertHUD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04687BF31B71388000AC0708 /* Build configuration list for PBXProject "ZZBStatusAlertHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04687C191B71388000AC0708 /* Debug */,
+				04687C1A1B71388000AC0708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04687C1B1B71388000AC0708 /* Build configuration list for PBXNativeTarget "ZZBStatusAlertHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04687C1C1B71388000AC0708 /* Debug */,
+				04687C1D1B71388000AC0708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04687C1E1B71388000AC0708 /* Build configuration list for PBXNativeTarget "ZZBStatusAlertHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04687C1F1B71388000AC0708 /* Debug */,
+				04687C201B71388000AC0708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04687BF01B71388000AC0708 /* Project object */;
+}
